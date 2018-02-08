@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-color: #efefef;
+}
+h1
+{
+	text-align: center;
+	margin-right:80px;
+	font-size:25px;
+	padding-top:30px;
+	padding-bottom:15px;
+	font-family: 'Inconsolata', monospace;
+	color:#8f6762;
+}
+
+
+.bubbleText
+{
+
+padding:20px;
+border-radius:25px;
+background-color:#8f6762;
+display:inline;
+font-family: 'Inconsolata', monospace;
+color: white;
+filter:drop-shadow(5px 5px 5px #3c3537);
+transition: all .5s ease;
+}
+#container
+{
+	margin:0 auto;
+	width: 700px;
+}
+
+.imageArea
+{
+  display:block;
+	margin:0 auto;
+	height:225px;
+	width:300px;
+	filter:drop-shadow(5px 5px 5px #595959 ) opacity(80%);
+  padding-bottom:62px;
+	position:relative;
+}
+
+
+.imageArea:hover
+{
+	filter:opacity(100%);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+#bubble1
+{
+ position:absolute;
+}
+#bubble2
+{
+	position:absolute;
+	left:50px;
+
+}
+#bubble3
+{
+	position:absolute;
+
+}
+#bubble4
+{
+	position:absolute;
+	right:40px;
+
+}
+#bubble5
+{
+	position:absolute;
+	right:40px;
+}
+#bubble6
+{
+position:absolute;
+
+
+}
+
+.imageArea .bubbleText
+{
+position:relative;
+visibility:hidden;
+
+}
+.imageArea:hover .bubbleText {
+visibility:visible;
+
+
+}
+footer
+{
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	padding-bottom: 50px;
+	margin-right: 70px;
+	color: #8f6762;
+}
