@@ -1,2 +1,3 @@
 # lopez_christine_hw1
-Just a little page about myself.
+A simple page about myself. 
+Playing with css transitions.
